@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suraj Fitness</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background-image: url(victor-freitas-WvDYdXDzkhs-unsplash.jpg);
+
+        }
+
+        * {
+            color: white;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+
+        .header {
+            padding: 4px 4px;
+
+        }
+
+        .left div {
+            line-height: 5px;
+        }
+
+        .left {
+            /* border: 2px solid rgb(38, 0, 255); */
+            display: inline block;
+            position: absolute;
+            left: 34px;
+            top: 22px;
+            text-align: center;
+        }
+
+        .left img {
+            filter: invert(100%);
+            width: 80px;
+            height: 80px;
+        }
+
+        .mid {
+            /* border: 2px solid red; */
+            display: block;
+            width: 50%;
+            margin: 10px auto;
+        }
+
+        .right {
+            /* border: 2px solid rgb(21, 255, 0); */
+            display: inline-block;
+            position: absolute;
+            right: 34px;
+            top: 22px;
+        }
+
+        img {
+            width: 50px;
+            height: 50px;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            list-style: none;
+
+            display: inline-block;
+            cursor: pointer;
+
+        }
+
+        li a {
+            margin: 5px 27px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a:active {
+            text-decoration: underline;
+            color: gray;
+        }
+
+         
+
+        .navbar ul {
+            font-size: 20px;
+        }
+
+        .navbar li {
+            list-style-type: none;
+            display: inline-block;
+        }
+
+        .btn {
+            color: rgb(41, 62, 250);
+            padding: 5px;
+            margin: 10px;
+            background-color: transparent;
+            border-radius: 10px;
+            background-color: 1px solid gray;
+            font-size: 20px;
+        }
+
+        .container {
+            display: block;
+            width: 40%;
+            position: absolute;
+            left: 20px;
+            top: 150px;
+        }
+       .forms input
+        {  
+           display: block;
+           width: 75%; padding: 5px;
+           margin: 20px;
+           border: 2px solid blue;
+            border-radius: 20px;
+           color: black;
+           font-size: 20px;
+           text-align: center;
+        }
+        h2{
+            text-align: center;
+         
+            
+        }
+        .forms button{
+            display: inline block;
+           width: 75%; padding: 5px;
+           margin: 20px;
+           border: 2px solid blue;
+            border-radius: 20px;
+           color: black;
+           font-size: 20px;
+           text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="dumbell.png" alt="">
+            <div>
+                Suraj Fitness
+            </div>
+        </div>
+        <div class="mid">
+            <div class="navbar">
+                <ul>
+                    <li><a href="https://www.google.com" target="_blank">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">BMI Calculator</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+        </div>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+
+    </header>
+    <div class="container">
+        <h2>Join The Best Fitness Program in Aurangabad</h2>
+
+        <form action="noaction.php">
+        <div class="forms">
+            <input type="text" placeholder="Enter Your Name">
+        </div>
+        <div class="forms">
+            <input type="text" placeholder="Enter Your Age">
+        </div>
+        <div class="forms">
+            <input type="text" placeholder="Enter Your Gender">
+        </div>
+        <div class="forms">
+            <input type="text" placeholder="Enter Your Locality">
+        </div>
+        <div class="forms">
+            <input type="text" placeholder="Enter Your Phone No">
+        </div>
+        <div class="forms">
+            <input type="text" placeholder="Enter Your Email">
+        </div>
+        <div class="forms">
+            <button>Submit</button>
+        </div>
+    </form>
+    </div>
+    </div>
+</body>
+</html>

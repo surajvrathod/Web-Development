@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS Positions Static,Relative,Absolute Fixed and Stickey
+    </title>
+    <style>
+         
+        .container{
+            border: 2px solid red;
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+            padding: 2px 2px;
+            margin: auto; 
+            box-sizing: border-box; 
+            background-color: coral;
+
+        }
+        #box3{
+            position: relative;
+            /* left: 5px; */
+            right: 10px;
+            top: 100px;
+        }
+        #box2{
+position: absolute;
+right: 10px;
+        }
+        .box{
+            background-color: cornsilk;
+            /* width: 1200px; */
+            height: 4000px;
+        }
+        #box4{
+            position: fixed;
+            right: 10px;
+            bottom: 10px;
+        }
+        #box1{
+            position: sticky;
+            top: 100px;
+            left: 400px;
+        }
+    </style>
+
+</head>
+<body>
+  <div class="box">
+    <div class="container" id="box1">1</div>
+    <div class="container" id="box2">2</div>
+    <div class="container" id="box3">3</div>
+    <div class="container" id="box4">4</div>
+</div>
+</body>
+</html>
+
